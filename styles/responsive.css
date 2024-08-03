@@ -1,0 +1,380 @@
+@media (min-width: 1400px) {
+
+    .container {
+        width: 1300px;
+    }
+
+}
+
+
+
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 1400px) {
+
+    .material__right {
+        row-gap: 2rem;
+    }
+
+    .materials__right {
+        gap: 2rem;
+    }
+}
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 1200px) {
+    .experiences__left img {
+        right: 185px;
+    }
+
+    .box2 {
+        left: -6px;
+    }
+
+    .experiences__left {
+        width: 60%;
+    }
+
+
+
+    .materials__wrapper {
+        flex-direction: column;
+    }
+
+    .materials__left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .materials__right {
+        margin-top: 4rem;
+
+    }
+
+    .materials__title {
+        margin: auto;
+    }
+
+    .foooter__menu-wrapper {
+        gap: 12rem;
+    }
+}
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 992px) {
+    .headerw__title {
+        font-size: 6rem;
+        line-height: 7.5rem;
+    }
+
+    .header__caption {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .choose__wrapper {
+        flex-direction: column;
+    }
+
+    .choose__left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .choose__right {
+        width: 100%;
+        margin-top: 5rem;
+        gap: 2rem;
+    }
+
+
+    .choos__item-caption {
+        font-size: 14px;
+    }
+
+    .experiences__wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .experiences__right {
+        margin-bottom: 7rem;
+    }
+
+    .experiences__left {
+        width: 100%;
+    }
+
+    .experiences__left img {
+        position: static;
+        border-top-left-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+        display: block;
+        margin: auto;
+    }
+
+    .box1 {
+        left: 190px;
+        top: -45px;
+    }
+
+    .box2 {
+        left: 4px;
+        top: 185px;
+    }
+
+
+
+
+
+
+
+    .foooter__menu-wrapper {
+        gap: 6rem;
+    }
+}
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 768px) {
+
+    .menu,
+    .user-basket {
+        display: none;
+    }
+    .btn__toggle {
+        display: flex;
+    }
+    .headerw__title {
+        font-size: 4.5rem;
+        line-height: 6.5rem;
+    }
+
+    .header__caption {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+
+    .serach__box {
+        max-width: 28rem;
+    }
+
+    .choose__right {
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+
+    .choos__item {
+        flex-grow: 1;
+        width: 23rem;
+    }
+
+    .experiences__left img {
+        width: 90%;
+    }
+
+    .box1,
+    .box2 {
+        width: 30rem;
+        height: 20rem;
+    }
+
+    .box1 {
+        left: 230px;
+    }
+
+    .box2 {
+        left: -2rem;
+    }
+
+    .footer__left {
+        width: 35%;
+    }
+
+    .footer__wrapper {
+        row-gap: 4rem;
+    }
+}
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 750px) {
+    .product__item {
+        max-width: 40rem;
+    }
+
+    .product__item_top img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {
+    .header {
+        padding-bottom: 35rem;
+    }
+
+    .headerw__title {
+        font-size: 3.5rem;
+        line-height: 5.5rem;
+        margin-top: 6rem;
+    }
+
+    .header__caption {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        padding: 2rem 0;
+    }
+
+    .serach__box {
+        max-width: 23rem;
+    }
+
+    .serach__box input {
+        height: 4.8rem;
+    }
+
+    .serach__button {
+        width: 3.5rem;
+        height: 3.5rem;
+        right: 7px;
+    }
+
+    .choose__right {
+        padding: 0px 4rem;
+        text-align: center;
+    }
+
+    .ddd {
+        justify-content: center;
+    }
+
+    .box1,
+    .box2 {
+        display: none;
+    }
+
+    .experiences__right {
+        text-align: center;
+    }
+
+    .materials__title {
+        font-size: 30px;
+        line-height: 45.22px;
+        max-width: 42rem !important;
+    }
+
+    .more_info {
+        justify-content: center;
+    }
+
+    .footer__left {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .copy_right {
+        text-align: center;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width:450px) {
+    .experiences__title {
+        font-size: 35px;
+        line-height: 45.22px;
+    }
+
+    .experiences__caption {
+        font-size: 16px;
+        line-height: 28.3px;
+    }
+
+    .experiences__right {
+        margin-bottom: 4rem;
+    }
+
+    .comment {
+        bottom: 25px;
+        width: 60%;
+        padding: 0 3.5rem;
+        z-index: 100;
+    }
+
+    .txt__comment {
+        font-size: 13px;
+        line-height: 15.41px;
+        opacity: 80%;
+        padding-bottom: 0.5rem;
+    }
+
+    .user_job {
+        padding: 0 0 1.3rem 0;
+    }
+
+    .username {
+        font-size: 17px;
+        line-height: 19px;
+        padding: 4rem 0 0.5rem 0;
+    }
+
+    .user__profile {
+        width: 3.5rem;
+        height: 3.5rem;
+        bottom: 155px;
+        z-index: -50;
+    }
+
+    .product__list-wrapper {
+        width: 30rem;
+        padding: 0 0.5rem;
+    }
+
+    .foooter__menu-wrapper {
+        width: 29rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .social {
+        margin: auto;
+        text-align: center;
+    }
+
+    .materials__right {
+        flex-direction: column;
+    }
+
+    .image_box {
+        flex-direction: row;
+        margin: auto;
+    }
+}
+
+/* =========================================================================================== */
+
+@media screen and (max-width:400px) {
+    .headerw__title {
+        font-size: 2.5rem;
+        line-height: 4.5rem;
+    }
+
+    .chose__title {
+        font-size: 3.2rem;
+    }
+}
